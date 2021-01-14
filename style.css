@@ -79,7 +79,9 @@ section{
 .contact-section h1{
     font-size: 4rem;
 }
-
+.contact-icon i{
+    margin-bottom: 20px;
+}
 
 /* RESPONSIVE FOR MOBILE DEVICE */
 /* Header Section responsive*/
