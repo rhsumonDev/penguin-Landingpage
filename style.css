@@ -1,0 +1,130 @@
+/* use Goole Font */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+header{
+    background-color: #FFFBF0;
+}
+h1{
+    font-family: 'Bebas Neue', cursive;
+}
+h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 60px;
+   
+}
+
+.nav-item-spacing li{
+    padding-right: 30px;
+}
+/* Header-section */
+.header-penguins-section{
+    margin-top: 30px;
+}
+
+.header-penguins-section h1{
+    font-family: 'Bebas Neue', cursive;
+    margin-top: 60px;
+    font-size: 80px;
+}
+.header-penguins-section span{
+    color: #FABE4C;
+}
+.header-penguins-section button, .fashion-sec button{
+    padding:15px 37px 15px 37px;
+    border-radius: 10px;
+    background-color: #8EA927;
+
+}
+.header-penguins-section button i, .fashion-sec button i{
+    margin-right: 5px;
+}
+.fashion-sec img{
+    height: 350px;
+    width: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+ .jacket-img-background{
+    background-color: #F1F1F1;
+    border-radius: 30px;
+    margin: 10px;
+}
+section{
+    margin-top:7rem;
+}
+
+.fashion-sec h5{
+    font-size: 35px;
+    margin-right: 60px;
+    color: #FABE4C;
+}
+.product-image img{
+    width: 80px;
+   margin-left: 10px;
+}
+.product-section .side-colm{
+    border-radius: 20px;
+}
+.product-section .product-colum-title{
+    margin-left: 2rem;
+}
+
+/* Contact Section */
+
+.contact-section h1{
+    font-size: 4rem;
+}
+
+
+/* RESPONSIVE FOR MOBILE DEVICE */
+/* Header Section responsive*/
+@media (max-width: 768px){
+    .header-penguins-section h1{
+        font-size: 60px;
+    }
+    .nav-responsive-img img{
+        width: 240px !important;
+    }
+}
+
+/* Fashion Section responsive */
+@media (max-width: 768px){
+    .fashion-sec .col-md-4{
+        margin-top: 35px;
+       }
+       .fashion-sec button{
+           padding:15px
+       }
+       .fashion-sec h2{
+           text-align: center;
+       }
+}
+/* Product-exchange responsive*/
+@media (max-width: 768px){
+    .side-colm{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 3rem;
+       }
+       .find-produch-responsive-class{
+        display: flex;
+        flex-flow: column-reverse;
+     }
+     .sidebar-img img{
+        margin-left: 0px !important;
+     }
+}
+
+@media (max-width: 768px){
+    .contact-icon{
+        margin-top: 30px;
+    }
+    .contact-section h1{
+        font-size: 50px;
+    }
+    .contact-icon i{
+        margin-bottom: 20px;
+    }
+    
+}
+
